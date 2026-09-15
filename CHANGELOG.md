@@ -4,6 +4,8 @@ OverGreen is using incremental versioning.
 
 ## [Unreleased]
 
+## [11]
+
 ### Added
 
 - Changelog.
@@ -16,4 +18,5 @@ OverGreen is using incremental versioning.
 - Use `ARGB.multiplyAlpha` in `ScreenEffectRendererMixin`.
 - Optimize `icon.png` by 2 bytes.
 
+[11]: https://github.com/ProtoFN/OverGreen/tree/v11
 [@ProtoFN]: https://github.com/ProtoFN
