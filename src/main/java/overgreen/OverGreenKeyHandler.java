@@ -1,6 +1,6 @@
 package overgreen;
 
-import org.lwjgl.glfw.GLFW;
+import com.mojang.blaze3d.platform.InputConstants;
 
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
@@ -13,9 +13,9 @@ import net.minecraft.resources.Identifier;
 final class OverGreenKeyHandler {
     private static final KeyMapping.Category CATEGORY = new KeyMapping.Category(Identifier.fromNamespaceAndPath(OverGreen.MOD_ID, "category"));
 
-    private static final KeyMapping TOGGLE_FORCE_REDUCED_INFO_KEY = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.overgreen.toggle_force_reduced_info", GLFW.GLFW_KEY_UNKNOWN, CATEGORY));
+    private static final KeyMapping TOGGLE_FORCE_REDUCED_INFO_KEY = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.overgreen.toggle_force_reduced_info", InputConstants.Type.KEYBOARD, InputConstants.UNKNOWN.getValue(), CATEGORY));
 
-    private static final KeyMapping ZOOM_KEY = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.overgreen.zoom", GLFW.GLFW_KEY_UNKNOWN, CATEGORY));
+    private static final KeyMapping ZOOM_KEY = KeyMappingHelper.registerKeyMapping(new KeyMapping("key.overgreen.zoom", InputConstants.Type.KEYBOARD, InputConstants.UNKNOWN.getValue(), CATEGORY));
 
     private static int toggleForceReducedInfoKeyPressedTicks;
 
