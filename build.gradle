@@ -57,6 +57,7 @@ modrinth {
     projectId = "overgreen"
     versionNumber = project.version
     versionName = "OverGreen v${project.version}"
+    changelog = file("CHANGELOG.md").text
     uploadFile = jar
 
     dependencies {
