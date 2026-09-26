@@ -4,6 +4,12 @@ OverGreen is using incremental versioning.
 
 ## [Unreleased]
 
+### Changed
+
+- Update Gradle.
+- Update Loom.
+- Update Fabric API.
+
 ## [11]
 
 ### Added
