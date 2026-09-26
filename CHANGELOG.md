@@ -8,7 +8,7 @@ OverGreen is using incremental versioning.
 
 ### Added
 
-- Added changelog.
+- Add changelog.
 
 ### Changed
 
