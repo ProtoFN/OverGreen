@@ -8,7 +8,7 @@ OverGreen is using incremental versioning.
 
 ### Changed
 
-- Changed versioning.
+- Change versioning.
 - Update Gradle.
 - Update Loom.
 - Update Fabric Loader.
