@@ -1,0 +1,4 @@
+- Changed versioning.
+- Update Gradle.
+- Update Loom.
+- Update Fabric API.
