@@ -6,11 +6,12 @@ OverGreen is using incremental versioning.
 
 ### Changed
 
+- Changed versioning.
 - Update Gradle.
 - Update Loom.
 - Update Fabric API.
 
-## [11]
+## [1.11]
 
 ### Added
 
@@ -24,5 +25,5 @@ OverGreen is using incremental versioning.
 - Use `ARGB.multiplyAlpha` in `ScreenEffectRendererMixin`.
 - Optimize `icon.png` by 2 bytes.
 
-[11]: https://github.com/ProtoFN/OverGreen/tree/v11
+[1.11]: https://github.com/ProtoFN/OverGreen/tree/v1.11
 [@ProtoFN]: https://github.com/ProtoFN
